@@ -65,8 +65,8 @@ export default function Resume() {
           <h2 className="text-2xl font-bold mb-4">Contact</h2>
           <p>Address: Berlin, 10367 Germany</p>
           <p>Phone: +4915778675538</p>
-          <p>E-mail: rashmi1singh0@gmail.com</p>
-          <p>WWW: www.linkedin.com/in/rashmi-singh-a83a15247</p>
+          <a href="mailto:rashmi1singh0@gmail.com">E-mail: rashmi1singh0@gmail.com</a><br></br>
+          <a href="https://www.linkedin.com/in/rashmi-singh-a83a15247/">Linkedin</a>
         </AnimatedCard>
 
         <AnimatedCard delay={0.2}>
