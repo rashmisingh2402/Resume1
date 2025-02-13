@@ -50,15 +50,18 @@ export default function Resume() {
             >
               Rashmi Singh
             </motion2.h1>
+            <br />
             <motion2.p
               className="text-xl"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              📍 Berlin, Germany | 📧 rashmi1singh0@gmail.com | 📞 +49 15778675538
+              📍 Berlin, Germany | 📞 +49 15778675538
             </motion2.p>
-            <p>🔗 LinkedIn: www.linkedin.com/in/rashmi-singh-a83a15247</p>
+            <br />
+            <a href="mailto:rashmi1singh0@gmail.com">E-mail: rashmi1singh0@gmail.com</a><br></br>
+            <p> LinkedIn : <a href="https://www.linkedin.com/in/rashmi-singh-a83a15247/" className="text-blue-300 hover:underline">rasmisingh</a></p>
           </div>
         </AnimatedCard>
 
@@ -339,7 +342,7 @@ export default function Resume() {
             <li>
               Appreciation Certificate – Austin Engineering Company Ltd. (Internship) (2020)
               <br />
-              <a href="" className="text-blue-300 hover:underline">
+              <a href="https://drive.google.com/file/d/1cCLlQtV1lTpIXEjA6wMcV2VmlvfDmiOh/view" className="text-blue-300 hover:underline">
                 [View Certificate – PDF/Image Link]
               </a>
             </li>
