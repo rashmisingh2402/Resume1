@@ -56,229 +56,294 @@ export default function Resume() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              Human Resources
+              📍 Berlin, Germany | 📧 rashmi1singh0@gmail.com | 📞 +49 15778675538
             </motion2.p>
+            <p>🔗 LinkedIn: www.linkedin.com/in/rashmi-singh-a83a15247</p>
           </div>
         </AnimatedCard>
 
         <AnimatedCard delay={0.1}>
-          <h2 className="text-2xl font-bold mb-4">Contact</h2>
-          <p>Address: Berlin, 10367 Germany</p>
-          <p>Phone: +4915778675538</p>
-          <a href="mailto:rashmi1singh0@gmail.com">E-mail: rashmi1singh0@gmail.com</a><br></br>
-          <a href="https://www.linkedin.com/in/rashmi-singh-a83a15247/">Linkedin</a>
+          <h2 className="text-2xl font-bold mb-4">About Me</h2>
+          <p>
+            I am an experienced Human Resources Professional and Customer Relationship Manager with a strong foundation
+            in talent acquisition, employee engagement, compliance, payroll management, and HR operations. My expertise
+            spans across European and Indian markets, allowing me to navigate diverse workplace cultures, optimize HR
+            functions, and implement strategic workforce solutions.
+          </p>
+          <p className="mt-4">
+            With an MBA in International Human Resources Management from Berlin, I bring a global perspective on HR
+            strategies, employment law, diversity & inclusion, and business operations. My passion lies in creating
+            positive work environments, enhancing employee satisfaction, and leveraging HR analytics to drive
+            organizational growth.
+          </p>
+          <p className="mt-4">
+            Throughout my career, I have worked across industries such as automotive, pharmaceuticals, and BPO, gaining
+            experience in HR audits, regulatory compliance, workforce planning, and customer relations. I thrive in
+            dynamic environments where I can contribute to employee well-being, leadership development, and operational
+            efficiency.
+          </p>
         </AnimatedCard>
 
         <AnimatedCard delay={0.2}>
-          <h2 className="text-2xl font-bold mb-4">Languages</h2>
-          <ul>
-            <li>English: Bilingual or Proficient (C2)</li>
-            <li>Hindi: Bilingual or Proficient (C2)</li>
-            <li>German: Elementary (A2)</li>
+          <h2 className="text-2xl font-bold mb-4">Core Expertise</h2>
+          <ul className="list-disc pl-5">
+            <li>Human Resource Management & Organizational Development</li>
+            <li>Talent Acquisition & Recruitment Strategy</li>
+            <li>HR Policy Development & Compliance (EU & India)</li>
+            <li>Payroll Management & HRIS/HRMS Systems</li>
+            <li>Performance Management & Employee Development</li>
+            <li>Diversity, Equity & Inclusion (DEI) Strategies</li>
+            <li>HR Data Analytics & Workforce Planning</li>
+            <li>HR Audit & Regulatory Compliance (US FDA, MHRA, ISO, Health Canada)</li>
+            <li>Employee Engagement & Workplace Culture</li>
+            <li>Leadership & Cross-functional Collaboration</li>
+            <li>Customer Engagement & Public Relations</li>
           </ul>
         </AnimatedCard>
 
         <AnimatedCard delay={0.3}>
-          <h2 className="text-2xl font-bold mb-4">Skills</h2>
-          <ul className="list-disc pl-5">
-            <li>Microsoft Office</li>
-            <li>Document Management System (DMS)</li>
-            <li>Human Resource Management System (HRMS)</li>
-            <li>Payroll Management System</li>
-            <li>HR Policy & Compliance</li>
-            <li>Diversity and Inclusion</li>
-            <li>Performance Management</li>
-            <li>Employment Law</li>
-            <li>Talent Acquisition</li>
-            <li>Content Writing</li>
-            <li>Customer Engagement & Satisfaction</li>
-            <li>CRM software proficiency</li>
-          </ul>
+          <h2 className="text-2xl font-bold mb-4">Professional Experience</h2>
+          <div className="mb-6">
+            <h3 className="text-xl font-semibold">Customer Relationship Manager</h3>
+            <p>B. M. Hyundai Pvt. Ltd., Gujarat, India (June 2023 – October 2023)</p>
+            <p className="mt-2">Key Responsibilities & Achievements:</p>
+            <ul className="list-disc pl-5 mt-2">
+              <li>Customer Satisfaction & Quality Assurance:</li>
+              <ul className="list-disc pl-5">
+                <li>
+                  Increased customer satisfaction ratings from 50% to 74%, achieving the highest &quot;Delighted Customer
+                  Services&quot; rating.
+                </li>
+                <li>
+                  Successfully resolved 98% of customer complaints, ensuring prompt and efficient service recovery.
+                </li>
+                <li>
+                  Maintained a 95% customer retention rate through proactive customer engagement strategies and
+                  follow-ups.
+                </li>
+              </ul>
+              <li>Operational Efficiency & Case Management:</li>
+              <ul className="list-disc pl-5">
+                <li>
+                  Managed and maintained 3,500+ detailed customer records in GDMS 2.0 software, ensuring accurate
+                  tracking of service issues and resolutions.
+                </li>
+                <li>
+                  Generated and analyzed monthly customer satisfaction reports, identifying key areas for service
+                  improvement.
+                </li>
+              </ul>
+              <li>Leadership & Team Development:</li>
+              <ul className="list-disc pl-5">
+                <li>
+                  Led and mentored a 10-person customer service team, improving response times and service efficiency.
+                </li>
+                <li>
+                  Developed 15+ customer engagement campaigns, increasing customer interactions by 25% and strengthening
+                  brand loyalty.
+                </li>
+              </ul>
+            </ul>
+          </div>
+          <div className="mb-6">
+            <h3 className="text-xl font-semibold">Officer - Personnel & Administration</h3>
+            <p>Galentic Pharma India Pvt. Ltd., Gujarat, India (April 2021 – June 2023)</p>
+            <p className="mt-2">Key Responsibilities & Achievements:</p>
+            <ul className="list-disc pl-5 mt-2">
+              <li>Talent Acquisition & Retention:</li>
+              <ul className="list-disc pl-5">
+                <li>
+                  Successfully filled all vacant positions, reducing time-to-hire and achieving a record-low attrition
+                  rate of less than 5%.
+                </li>
+                <li>
+                  Led the end-to-end recruitment process, including interviews, onboarding, and workforce integration.
+                </li>
+              </ul>
+              <li>Payroll & HRIS Management:</li>
+              <ul className="list-disc pl-5">
+                <li>
+                  Managed payroll for 400+ employees, ensuring accurate salary disbursement, overtime calculation, and
+                  leave administration.
+                </li>
+                <li>
+                  Assisted in HR audits (US FDA, MHRA, Health Canada, ISO), ensuring compliance with industry
+                  regulations.
+                </li>
+              </ul>
+              <li>HR Analytics & Workforce Planning:</li>
+              <ul className="list-disc pl-5">
+                <li>
+                  Developed HR MIS reports, optimizing workforce planning, resource allocation, and cost reductions.
+                </li>
+                <li>
+                  Streamlined HR policies, increasing departmental efficiency by 30% through improved documentation and
+                  automation.
+                </li>
+              </ul>
+              <li>Employee Training & Cross-Functional Collaboration:</li>
+              <ul className="list-disc pl-5">
+                <li>Administered corporate training programs, ensuring continuous professional development.</li>
+                <li>
+                  Worked with six cross-functional teams, enhancing HR problem-solving strategies and workforce
+                  efficiency.
+                </li>
+              </ul>
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold">Frontline Communication Officer (BPO)</h3>
+            <p>Aquila Logisolutions LLP, Gujarat, India (October 2020 – April 2021)</p>
+            <p className="mt-2">Key Responsibilities & Achievements:</p>
+            <ul className="list-disc pl-5 mt-2">
+              <li>Sales Performance & Growth:</li>
+              <ul className="list-disc pl-5">
+                <li>
+                  Consistently exceeded sales targets by 40%, leveraging strategic customer engagement techniques.
+                </li>
+                <li>Processed up to 500 customer calls daily, driving lead generation and revenue growth.</li>
+              </ul>
+              <li>Customer Retention & Engagement:</li>
+              <ul className="list-disc pl-5">
+                <li>
+                  Increased customer retention by 80% through personalized service strategies and proactive support.
+                </li>
+              </ul>
+              <li>Process Improvement & Risk Mitigation:</li>
+              <ul className="list-disc pl-5">
+                <li>Developed 250+ crisis communication plans, increasing operational efficiency by 75%.</li>
+                <li>Designed and implemented telemarketing scripts, boosting overall sales performance by 30%.</li>
+              </ul>
+              <li>Team Training & Leadership:</li>
+              <ul className="list-disc pl-5">
+                <li>Trained and mentored 10+ new hires, equipping them with the necessary skills for success.</li>
+              </ul>
+            </ul>
+          </div>
         </AnimatedCard>
 
         <AnimatedCard delay={0.4}>
-          <h2 className="text-2xl font-bold mb-4">Work History</h2>
-          <p className="mb-4">
-            Experienced HR and Customer Relationship Manager with over 3 years of demonstrated success in customer
-            support, team leadership, and human resources. Adept at mentoring team members, fostering a positive work
-            environment, and enhancing customer satisfaction through effective communication and performance feedback.
-            Skilled in managing competing priorities, resolving customer concerns, and delivering superior results. With
-            a strong foundation in HR functions such as recruitment, training, employee engagement, and compliance, Aim
-            to leverage expertise in both HR and customer relationship management to contribute to organizational
-            growth, employee development, and operational excellence.
-          </p>
-
+          <h2 className="text-2xl font-bold mb-4">Education</h2>
           <div className="mb-6">
-            <h3 className="text-xl font-semibold">Customer Relationship Manager</h3>
-            <p>B. M. Hyundai Pvt. Ltd., Gujarat, India</p>
-            <p>2023-06 - 2023-10</p>
+            <h3 className="text-xl font-semibold">
+              Master of Business Administration (MBA) – International Human Resources Management
+            </h3>
+            <p>International University of Applied Sciences, Berlin, Germany (October 2023 – December 2024)</p>
+            <p className="mt-2">Key Modules:</p>
             <ul className="list-disc pl-5 mt-2">
-              <li>Led efforts to resolve customer complaints, ensuring timely and efficient vehicle servicing.</li>
-              <li>Coordinated follow-up programs and scheduled appointments to improve customer satisfaction.</li>
+              <li>Leadership & Strategic HRM</li>
+              <li>Performance & Talent Management</li>
+              <li>Business Ethics & Corporate Governance</li>
+              <li>Innovation & Entrepreneurship</li>
+              <li>International Marketing & Operations</li>
+            </ul>
+            <p className="mt-2">Key Projects:</p>
+            <ul className="list-disc pl-5 mt-2">
+              <li>The Role of HR in Ensuring Compliance Across Jurisdictions in a Globalized Workplace</li>
+              <li>The Intersection of Ethics Theory and Business Ethics: A Comprehensive Analysis</li>
+              <li>Flexible Work Arrangements: Development of a Policy for Home Office & Office Days</li>
               <li>
-                Generated and analyzed monthly customer satisfaction reports, utilizing factory-generated surveys to
-                assess service quality.
+                An exploration of supply chain dynamics within the fast fashion sector, comparing Zara, H&M, and
+                Benetton, while emphasizing the roles of digitalisation and global growth
               </li>
               <li>
-                Maintained detailed records of customer case histories, ensuring accurate documentation of service
-                issues and their resolutions.
-              </li>
-              <li>Created engaging content for customer newsletters, strengthening brand loyalty and communication.</li>
-              <li>
-                Contributed to management meetings by sharing insights on customer service improvements and operational
-                efficiency.
-              </li>
-              <li>Managed customer relations on ongoing basis to maximize customer retention.</li>
-              <li>
-                Managed a team of customer service representatives, providing coaching and guidance for improved
-                performance.
-              </li>
-              <li>
-                Directed 10-person team of customer service personnel while helping front-line team members work
-                effectively with over 70 daily customers.
+                Active Sourcing at AGILLearn: Strategies, Implementation, and Performance Evaluation for Effective
+                Talent Acquisition
               </li>
             </ul>
           </div>
-
-          <div className="mb-6">
-            <h3 className="text-xl font-semibold">Officer-Personnel & Administration</h3>
-            <p>Galentic Pharma India Pvt. Ltd., Gujarat, India</p>
-            <p>2021-04 - 2023-06</p>
-            <ul className="list-disc pl-5 mt-2">
-              <li>Coordinated full recruitment process, from job interviews to onboarding of new employees.</li>
-              <li>
-                Administered training programs in accordance with company&aposs training calendar and kept detailed records
-                of employee development.
-              </li>
-              <li>
-                Managed payroll, including attendance, overtime, and leave administration, ensuring accuracy and
-                compliance with internal policies.
-              </li>
-              <li>
-                Maintained up-to-date HR records and documentation, including personal and training files for both staff
-                and workmen.
-              </li>
-              <li>
-                Supported government audits (US FDA, MHRA, Health Canada, ISO), ensuring compliance with HR policies and
-                industry regulations.
-              </li>
-              <li>
-                Assisted with HR MIS reporting, providing critical data to management on workforce performance and
-                compliance.
-              </li>
-              <li>
-                Provided administrative support in the absence of the P&A Officer and Supervisor, handling diverse HR
-                activities as required.
-              </li>
-              <li>Improved department efficiency by streamlining and implementing policies and processes.</li>
-              <li>Maintained strict adherence to industry regulations, minimizing risk exposure for organization.</li>
-              <li>
-                Coordinated cross-functional teams to address complex issues, leading to more efficient problem-solving
-                processes.
-              </li>
-              <li>Frequently inspected production area to verify proper equipment operation.</li>
-            </ul>
-          </div>
-
           <div>
-            <h3 className="text-xl font-semibold">Frontline Communication Officer (BPO)</h3>
-            <p>Aquila Logisolutions LLP, Gujarat, India</p>
-            <p>2020-10 - 2021-04</p>
+            <h3 className="text-xl font-semibold">
+              Bachelor of Business Administration (BBA) – Human Resources Management
+            </h3>
+            <p>Marwadi University, Gujarat, India (April 2017 – June 2020)</p>
+            <p className="mt-2">Key Modules:</p>
             <ul className="list-disc pl-5 mt-2">
-              <li>
-                Conducted cold and warm calls to Australian clients to market and sell services, consistently meeting
-                sales targets.
-              </li>
-              <li>
-                Established rapport with customers through a professional and friendly communication style, improving
-                customer retention.
-              </li>
-              <li>
-                Developed and implemented effective telemarketing scripts that were adopted department-wide, boosting
-                overall sales performance.
-              </li>
-              <li>
-                Assisted in training new staff, ensured that new staff is equipped with the necessary skills to succeed
-                in the role.
-              </li>
-              <li>
-                Processed up to 500 customer calls per day, providing information, resolving issues, and driving sales.
-              </li>
-              <li>
-                Analyzed data from communications campaigns to identify areas of improvement and make necessary
-                adjustments for future success.
-              </li>
-              <li>
-                Developed crisis communication plans to effectively address potential issues and maintain company
-                reputation.
-              </li>
+              <li>Human Resource Management & Organizational Behavior</li>
+              <li>Change & Strategic Management</li>
+              <li>Financial & Marketing Management</li>
+              <li>Business Ethics & Corporate Governance</li>
+            </ul>
+            <p className="mt-2">Key Projects:</p>
+            <ul className="list-disc pl-5 mt-2">
+              <li>A Study on Performance Appraisal Practices in the Service Sector</li>
+              <li>Smart City Project</li>
             </ul>
           </div>
         </AnimatedCard>
 
         <AnimatedCard delay={0.5}>
-          <h2 className="text-2xl font-bold mb-4">Education</h2>
-          <div className="mb-6">
-            <h3 className="text-xl font-semibold">MBA: International Human Resources Management</h3>
-            <p>International University of Applied Sciences - Berlin, Germany</p>
-            <p>2023-10 - 2024-12</p>
-            <p>Grade: 2.3 (German grading system)</p>
-            <ul className="list-disc pl-5 mt-2">
-              <li>
-                Completed University-level Coursework: (Performance Management, International Marketing, Managerial
-                Economics, Innovation and Entrepreneurship, Strategic Management, Leadership, Business Ethics and
-                Corporate Governance, Operations and Information Management, Corporate Finance, Human Resource
-                Management: Theory, Project: Human Resources Management, Talent Management & HR Development) from IU
-                International University of Applied Sciences
-              </li>
-              <li>
-                Thesis Statement: The Role of HR in Ensuring Compliance Across Jurisdictions in a Globalized Workplace
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold">BBA: Human Resources Management</h3>
-            <p>Marwadi University - Gujarat, India</p>
-            <p>2017-04 - 2020-06</p>
-            <p>GPA: 8.00 CGPA</p>
-            <ul className="list-disc pl-5 mt-2">
-              <li>
-                A study on performance Appraisal Practices as a tool to improve employee performance in service sector,
-                The report of the research has been titled as ―A Study on Performance Appraisal Practices as a Tool to
-                Improve Employee Performance in Service Sector. The study was basically based on the study of overall
-                employees performance appraisal. - Research Project
-              </li>
-            </ul>
-          </div>
+          <h2 className="text-2xl font-bold mb-4">Internship Experience</h2>
+          <h3 className="text-xl font-semibold">HR & Business Operations Intern</h3>
+          <p>Austin Engineering Company Ltd., Gujarat, India (2020)</p>
+          <p className="mt-2">Key Responsibilities & Learnings:</p>
+          <ul className="list-disc pl-5 mt-2">
+            <li>Gained hands-on experience across HR, Production, Quality Control, Procurement, and Marketing.</li>
+            <li>Assisted in HR policy development, workforce planning, and compliance audits.</li>
+            <li>
+              Contributed ideas and presentations on efficiency improvement strategies in manufacturing operations.
+            </li>
+          </ul>
         </AnimatedCard>
 
         <AnimatedCard delay={0.6}>
-          <h2 className="text-2xl font-bold mb-4">Project</h2>
+          <h2 className="text-2xl font-bold mb-4">Technical Skills</h2>
           <ul className="list-disc pl-5">
-            <li>
-              Gained hands-on experience across various departments, including Production, HR, Quality, Purchase, and
-              Marketing, providing a comprehensive understanding of business operations.
-            </li>
-            <li>
-              Contributed to multiple aspects of the company&aposs manufacturing processes, HR policies, quality control
-              procedures, procurement practices, and marketing strategies., Austin Engineering Company Ltd., Completed
-              2020
-            </li>
-            <li>MU Fest (annual cultural event), 2017 to 2020</li>
-            <li>Member of Cultural Club</li>
-            <li>The Role of HR in Ensuring Compliance Across Jurisdictions in a Globalized Workplace.</li>
+            <li>HR Systems & Software: HRMS, HRIS, ERP, DMS, SAP</li>
+            <li>Payroll & HR Analytics: HR MIS reporting, Workforce Planning, Performance tracking</li>
+            <li>Microsoft Office Suite: Excel (Advanced), Word, PowerPoint, Outlook</li>
+            <li>Customer Engagement & Public Relations: GDMS 2.0, CRM software proficiency</li>
+            <li>Creative Tools: Adobe Illustrator & Adobe After Effects</li>
           </ul>
         </AnimatedCard>
 
         <AnimatedCard delay={0.7}>
-          <h2 className="text-2xl font-bold mb-4">Internship</h2>
-          <p>Austin Engineering Company Ltd., Junagarh, Gujarat, 22 days</p>
-          <p>The mentioned company deals in the manufacturing of various ball bearings.</p>
+          <h2 className="text-2xl font-bold mb-4">Languages</h2>
+          <ul className="list-disc pl-5">
+            <li>English – Bilingual Proficient (C2)</li>
+            <li>Hindi – Bilingual Proficient (C2)</li>
+            <li>German – Elementary (A2)</li>
+          </ul>
         </AnimatedCard>
 
         <AnimatedCard delay={0.8}>
-          <h2 className="text-2xl font-bold mb-4">Phone numbers</h2>
-          <p>+49 15778675538, +91 8789404733</p>
+          <h2 className="text-2xl font-bold mb-4">Certifications & Extracurricular Activities</h2>
+          <ul className="list-disc pl-5">
+            <li>Active participation in HR forums, business summits, and corporate networking events.</li>
+            <li>
+              Volunteered in university cultural & leadership events (IIM Ahmedabad&apos;s Red Brick Summit, MU Fest, Chaos).
+            </li>
+            <li>Passionate about mentoring, leadership development, and personal well-being initiatives.</li>
+            <li>Enthusiastic about travelling, cross-cultural learning, and practising yoga for work-life balance.</li>
+            <li>Competitive volleyball player, regularly participating in weekend tournaments and meet-ups.</li>
+          </ul>
+        </AnimatedCard>
+
+        <AnimatedCard delay={0.9}>
+          <h2 className="text-2xl font-bold mb-4">Awards & Recognitions</h2>
+          <ul className="list-disc pl-5">
+            <li>
+              Referral Certificate – Galentic Pharma India Pvt. Ltd. (April 2021 – June 2023)
+              <br />
+              <a href="https://drive.google.com/file/d/1lbhSGnxP2uxXP8PVC1-9oVvVZTkjSgIp/view" className="text-blue-300 hover:underline">
+                [View Certificate – PDF/Image Link]
+              </a>
+            </li>
+            <li>
+              Excellence in Attendance & Punctuality – Aquila Logisolutions LLP (October 2020 – April 2021)
+              <br />
+              <a href="https://drive.google.com/file/d/135HfUnHB57qaEtM72pkqzTryt1H0jkPE/view" className="text-blue-300 hover:underline">
+                [View Certificate – PDF/Image Link]
+              </a>
+            </li>
+            <li>
+              Appreciation Certificate – Austin Engineering Company Ltd. (Internship) (2020)
+              <br />
+              <a href="" className="text-blue-300 hover:underline">
+                [View Certificate – PDF/Image Link]
+              </a>
+            </li>
+          </ul>
         </AnimatedCard>
       </div>
     </div>
